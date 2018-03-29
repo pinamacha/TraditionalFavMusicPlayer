@@ -7,21 +7,156 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6508637A20111A69009A46E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6508637920111A69009A46E4 /* Images.xcassets */; };
 		6545DE4F1F10307E0019EE47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6545DE4E1F10307E0019EE47 /* AppDelegate.swift */; };
-		6545DE511F10307E0019EE47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6545DE501F10307E0019EE47 /* ViewController.swift */; };
 		6545DE541F10307E0019EE47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6545DE521F10307E0019EE47 /* Main.storyboard */; };
 		6545DE561F10307E0019EE47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6545DE551F10307E0019EE47 /* Assets.xcassets */; };
 		6545DE591F10307E0019EE47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6545DE571F10307E0019EE47 /* LaunchScreen.storyboard */; };
+		6545DE611F1031290019EE47 /* albumsVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6545DE601F1031290019EE47 /* albumsVc.swift */; };
+		6545DE651F1031C50019EE47 /* playsongVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6545DE641F1031C50019EE47 /* playsongVc.swift */; };
+		6545DE6A1F1039230019EE47 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6545DE681F1039230019EE47 /* CollectionViewCell.swift */; };
+		6545DE6B1F1039230019EE47 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6545DE691F1039230019EE47 /* CollectionViewCell.xib */; };
+		6545DE6F1F1086970019EE47 /* TableVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6545DE6E1F1086970019EE47 /* TableVCell.swift */; };
+		6545DE731F11614C0019EE47 /* SongListTVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6545DE721F11614C0019EE47 /* SongListTVc.swift */; };
+		657C92151F26130700A7A6EA /* Lalitha_SahasranamamEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 657C92141F26130700A7A6EA /* Lalitha_SahasranamamEnglish.txt */; };
+		657C92171F26132200A7A6EA /* LingastkamEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 657C92161F26132200A7A6EA /* LingastkamEnglish.txt */; };
+		65D00C031F17EFF5005B17C7 /* Saibaba.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65D00C011F1705D5005B17C7 /* Saibaba.plist */; };
+		65D00C051F181484005B17C7 /* DurgaMatha.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65D00C041F181484005B17C7 /* DurgaMatha.plist */; };
+		65D00C081F1814AC005B17C7 /* Venkateswara.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65D00C071F1814AC005B17C7 /* Venkateswara.plist */; };
+		65E547091F27C62300B621AD /* Maha_lakshmi_Ashtakam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E547061F27C62300B621AD /* Maha_lakshmi_Ashtakam.mp3 */; };
+		65E5470A1F27C62300B621AD /* Soubhagya_Lakshmi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E547071F27C62300B621AD /* Soubhagya_Lakshmi.mp3 */; };
+		65E5470F1F27C66C00B621AD /* Dhoop_Aarathi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E5470B1F27C66C00B621AD /* Dhoop_Aarathi.mp3 */; };
+		65E547101F27C66C00B621AD /* Kakad_Aarathi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E5470C1F27C66C00B621AD /* Kakad_Aarathi.mp3 */; };
+		65E547111F27C66C00B621AD /* Madhyana_Aarathi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E5470D1F27C66C00B621AD /* Madhyana_Aarathi.mp3 */; };
+		65E547121F27C66C00B621AD /* Shej_Aarathi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E5470E1F27C66C00B621AD /* Shej_Aarathi.mp3 */; };
+		65E547151F27C68200B621AD /* Lalitha_Sahasranamam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E547131F27C68200B621AD /* Lalitha_Sahasranamam.mp3 */; };
+		65E547161F27C68200B621AD /* Lingastkam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E547141F27C68200B621AD /* Lingastkam.mp3 */; };
+		65E5471A1F27C70100B621AD /* Varalakshmi_Vrathakalpam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E547191F27C70100B621AD /* Varalakshmi_Vrathakalpam.mp3 */; };
+		65E5471C1F27C70D00B621AD /* Vinayaka_vratha_Vidhanam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E5471B1F27C70D00B621AD /* Vinayaka_vratha_Vidhanam.mp3 */; };
+		65E5471E1F27C88900B621AD /* Vishnu_Sahasranamam_Stotram.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E5471D1F27C88900B621AD /* Vishnu_Sahasranamam_Stotram.mp3 */; };
+		65E547201F27C89900B621AD /* Sri_Venkateswara_Suprabhatham.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E5471F1F27C89900B621AD /* Sri_Venkateswara_Suprabhatham.mp3 */; };
+		65E547221F27C8A200B621AD /* Govinda_Namalu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E547211F27C8A200B621AD /* Govinda_Namalu.mp3 */; };
+		65E547241F27C8E400B621AD /* Mahishasura_Mardini.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E547231F27C8E400B621AD /* Mahishasura_Mardini.mp3 */; };
+		65E547281F27EFEF00B621AD /* Ashta_Lakshmi_Stotram.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E547271F27EFEF00B621AD /* Ashta_Lakshmi_Stotram.mp3 */; };
+		65E5472A1F27F05F00B621AD /* Sri_Hanuman_Dandakam.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65E547291F27F05F00B621AD /* Sri_Hanuman_Dandakam.txt */; };
+		65E5472C1F27F06500B621AD /* Sri_Hanuman_DandakamEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65E5472B1F27F06500B621AD /* Sri_Hanuman_DandakamEnglish.txt */; };
+		65E5472E1F27F0AB00B621AD /* Sri_Hanuman_Dandakam.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E5472D1F27F0AB00B621AD /* Sri_Hanuman_Dandakam.mp3 */; };
+		65E547301F27F0B500B621AD /* Shree_Hanuman_Chalisa.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 65E5472F1F27F0B500B621AD /* Shree_Hanuman_Chalisa.mp3 */; };
+		65E547321F27F0E300B621AD /* Shree_Hanuman_Chalisa.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65E547311F27F0E300B621AD /* Shree_Hanuman_Chalisa.txt */; };
+		65E547341F27F0EC00B621AD /* Shree_Hanuman_ChalisaEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65E547331F27F0EC00B621AD /* Shree_Hanuman_ChalisaEnglish.txt */; };
+		65E547361F27F4AB00B621AD /* AnjaneyaSwamy.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65E547351F27F4AB00B621AD /* AnjaneyaSwamy.plist */; };
+		65ED51791F1AC55C00E37D02 /* Govinda_Namalu.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65ED51781F1AC55C00E37D02 /* Govinda_Namalu.txt */; };
+		65ED517B1F1AC81200E37D02 /* Govinda_NamaluEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65ED517A1F1AC81200E37D02 /* Govinda_NamaluEnglish.txt */; };
+		65ED517F1F1AC96800E37D02 /* Sri_Venkateswara_Suprabhatham.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65ED517E1F1AC96800E37D02 /* Sri_Venkateswara_Suprabhatham.txt */; };
+		65ED51811F1AC97500E37D02 /* Sri_Venkateswara_SuprabhathamEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65ED51801F1AC97500E37D02 /* Sri_Venkateswara_SuprabhathamEnglish.txt */; };
+		65ED51861F1ACED100E37D02 /* Lalitha_Sahasranamam.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65ED51851F1ACED100E37D02 /* Lalitha_Sahasranamam.txt */; };
+		65ED51881F1ACFF000E37D02 /* Varalakshmi_Vrathakalpam.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65ED51871F1ACFF000E37D02 /* Varalakshmi_Vrathakalpam.txt */; };
+		65ED518A1F1AE1C100E37D02 /* Kakad_Aarathi.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65ED51891F1AE1C100E37D02 /* Kakad_Aarathi.txt */; };
+		65ED518C1F1B11BB00E37D02 /* Vishnu_Sahasranamam_StotramEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65ED518B1F1B11BB00E37D02 /* Vishnu_Sahasranamam_StotramEnglish.txt */; };
+		65ED51901F1C0C3500E37D02 /* Ashta_Lakshmi_Stotram.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65ED518F1F1C0C3500E37D02 /* Ashta_Lakshmi_Stotram.txt */; };
+		65ED51921F1C0D0F00E37D02 /* Maha_lakshmi_Ashtakam.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65ED51911F1C0D0F00E37D02 /* Maha_lakshmi_Ashtakam.txt */; };
+		65ED51941F1C0DF300E37D02 /* Madhyana_Aarathi.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65ED51931F1C0DF300E37D02 /* Madhyana_Aarathi.txt */; };
+		65ED51961F1C0E1F00E37D02 /* Dhoop_Aarathi.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65ED51951F1C0E1F00E37D02 /* Dhoop_Aarathi.txt */; };
+		65ED51981F1C0E5D00E37D02 /* Shej_Aarathi.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65ED51971F1C0E5D00E37D02 /* Shej_Aarathi.txt */; };
+		65ED519A1F1C0EDE00E37D02 /* Vishnu_Sahasranamam_Stotram.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65ED51991F1C0EDE00E37D02 /* Vishnu_Sahasranamam_Stotram.txt */; };
+		65ED519C1F1C0FCF00E37D02 /* Mahishasura_Mardini.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65ED519B1F1C0FCF00E37D02 /* Mahishasura_Mardini.txt */; };
+		65ED519E1F1C107200E37D02 /* Soubhagya_Lakshmi.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65ED519D1F1C107200E37D02 /* Soubhagya_Lakshmi.txt */; };
+		65ED51A01F1C10F100E37D02 /* Lingastkam.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65ED519F1F1C10F100E37D02 /* Lingastkam.txt */; };
+		65ED51AF1F1C156600E37D02 /* Vinayaka_vratha_Vidhanam.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65ED51AE1F1C156600E37D02 /* Vinayaka_vratha_Vidhanam.txt */; };
+		65ED51B11F1C427D00E37D02 /* More.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65ED51B01F1C427D00E37D02 /* More.plist */; };
+		65ED51B31F1C42DE00E37D02 /* Vrathalu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65ED51B21F1C42DE00E37D02 /* Vrathalu.plist */; };
+		65ED51B91F1C455100E37D02 /* LakshmiDevi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 65ED51B81F1C455100E37D02 /* LakshmiDevi.plist */; };
+		65ED51BB1F1C487B00E37D02 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ED51BA1F1C487B00E37D02 /* ApiManager.swift */; };
+		65FB2F911F2551BA00073FE0 /* Maha_lakshmi_AshtakamEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65FB2F901F2551BA00073FE0 /* Maha_lakshmi_AshtakamEnglish.txt */; };
+		65FB2F951F25580500073FE0 /* Ashta_Lakshmi_StotramEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65FB2F941F25580500073FE0 /* Ashta_Lakshmi_StotramEnglish.txt */; };
+		65FB2F971F25586E00073FE0 /* Soubhagya_LakshmiEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65FB2F961F25586E00073FE0 /* Soubhagya_LakshmiEnglish.txt */; };
+		65FB2F991F255C3100073FE0 /* Mahishasura_MardiniEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65FB2F981F255C3100073FE0 /* Mahishasura_MardiniEnglish.txt */; };
+		65FB2F9B1F255CBB00073FE0 /* Kakad_AarathiEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65FB2F9A1F255CBB00073FE0 /* Kakad_AarathiEnglish.txt */; };
+		65FB2F9D1F255CC600073FE0 /* Madhyana_AarathiEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65FB2F9C1F255CC600073FE0 /* Madhyana_AarathiEnglish.txt */; };
+		65FB2F9F1F255CCE00073FE0 /* Dhoop_AarathiEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65FB2F9E1F255CCE00073FE0 /* Dhoop_AarathiEnglish.txt */; };
+		65FB2FA11F255CD600073FE0 /* Shej_AarathiEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65FB2FA01F255CD600073FE0 /* Shej_AarathiEnglish.txt */; };
+		65FB2FA31F258C3900073FE0 /* Varalakshmi_VrathakalpamEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65FB2FA21F258C3900073FE0 /* Varalakshmi_VrathakalpamEnglish.txt */; };
+		65FB2FA51F258C5500073FE0 /* Vinayaka_vratha_VidhanamEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65FB2FA41F258C5500073FE0 /* Vinayaka_vratha_VidhanamEnglish.txt */; };
+		65FB2FA71F258C6400073FE0 /* Kedareswara_vratham.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65FB2FA61F258C6400073FE0 /* Kedareswara_vratham.txt */; };
+		65FB2FA91F258C7600073FE0 /* Kedareswara_vrathamEnglish.txt in Resources */ = {isa = PBXBuildFile; fileRef = 65FB2FA81F258C7600073FE0 /* Kedareswara_vrathamEnglish.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6508637920111A69009A46E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6545DE4B1F10307E0019EE47 /* MyFavorites_pdl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFavorites_pdl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6545DE4E1F10307E0019EE47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6545DE501F10307E0019EE47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6545DE531F10307E0019EE47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6545DE551F10307E0019EE47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6545DE581F10307E0019EE47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6545DE5A1F10307E0019EE47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6545DE601F1031290019EE47 /* albumsVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = albumsVc.swift; sourceTree = "<group>"; };
+		6545DE641F1031C50019EE47 /* playsongVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = playsongVc.swift; sourceTree = "<group>"; };
+		6545DE681F1039230019EE47 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		6545DE691F1039230019EE47 /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		6545DE6E1F1086970019EE47 /* TableVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableVCell.swift; sourceTree = "<group>"; };
+		6545DE721F11614C0019EE47 /* SongListTVc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongListTVc.swift; sourceTree = "<group>"; };
+		657AAA371FE597100083147D /* MyFavorites_pdl.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyFavorites_pdl.entitlements; sourceTree = "<group>"; };
+		657C92141F26130700A7A6EA /* Lalitha_SahasranamamEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lalitha_SahasranamamEnglish.txt; sourceTree = "<group>"; };
+		657C92161F26132200A7A6EA /* LingastkamEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LingastkamEnglish.txt; sourceTree = "<group>"; };
+		65D00C011F1705D5005B17C7 /* Saibaba.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Saibaba.plist; path = ../Saibaba.plist; sourceTree = "<group>"; };
+		65D00C041F181484005B17C7 /* DurgaMatha.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DurgaMatha.plist; sourceTree = "<group>"; };
+		65D00C071F1814AC005B17C7 /* Venkateswara.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Venkateswara.plist; sourceTree = "<group>"; };
+		65E547061F27C62300B621AD /* Maha_lakshmi_Ashtakam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Maha_lakshmi_Ashtakam.mp3; path = audios/Maha_lakshmi_Ashtakam.mp3; sourceTree = SOURCE_ROOT; };
+		65E547071F27C62300B621AD /* Soubhagya_Lakshmi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Soubhagya_Lakshmi.mp3; path = audios/Soubhagya_Lakshmi.mp3; sourceTree = SOURCE_ROOT; };
+		65E5470B1F27C66C00B621AD /* Dhoop_Aarathi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Dhoop_Aarathi.mp3; path = audios/Dhoop_Aarathi.mp3; sourceTree = SOURCE_ROOT; };
+		65E5470C1F27C66C00B621AD /* Kakad_Aarathi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Kakad_Aarathi.mp3; path = audios/Kakad_Aarathi.mp3; sourceTree = SOURCE_ROOT; };
+		65E5470D1F27C66C00B621AD /* Madhyana_Aarathi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Madhyana_Aarathi.mp3; path = audios/Madhyana_Aarathi.mp3; sourceTree = SOURCE_ROOT; };
+		65E5470E1F27C66C00B621AD /* Shej_Aarathi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Shej_Aarathi.mp3; path = audios/Shej_Aarathi.mp3; sourceTree = SOURCE_ROOT; };
+		65E547131F27C68200B621AD /* Lalitha_Sahasranamam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Lalitha_Sahasranamam.mp3; path = audios/Lalitha_Sahasranamam.mp3; sourceTree = SOURCE_ROOT; };
+		65E547141F27C68200B621AD /* Lingastkam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Lingastkam.mp3; path = audios/Lingastkam.mp3; sourceTree = SOURCE_ROOT; };
+		65E547191F27C70100B621AD /* Varalakshmi_Vrathakalpam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Varalakshmi_Vrathakalpam.mp3; path = audios/Varalakshmi_Vrathakalpam.mp3; sourceTree = SOURCE_ROOT; };
+		65E5471B1F27C70D00B621AD /* Vinayaka_vratha_Vidhanam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Vinayaka_vratha_Vidhanam.mp3; path = audios/Vinayaka_vratha_Vidhanam.mp3; sourceTree = SOURCE_ROOT; };
+		65E5471D1F27C88900B621AD /* Vishnu_Sahasranamam_Stotram.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Vishnu_Sahasranamam_Stotram.mp3; path = audios/Vishnu_Sahasranamam_Stotram.mp3; sourceTree = SOURCE_ROOT; };
+		65E5471F1F27C89900B621AD /* Sri_Venkateswara_Suprabhatham.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Sri_Venkateswara_Suprabhatham.mp3; path = audios/Sri_Venkateswara_Suprabhatham.mp3; sourceTree = SOURCE_ROOT; };
+		65E547211F27C8A200B621AD /* Govinda_Namalu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Govinda_Namalu.mp3; path = audios/Govinda_Namalu.mp3; sourceTree = SOURCE_ROOT; };
+		65E547231F27C8E400B621AD /* Mahishasura_Mardini.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Mahishasura_Mardini.mp3; path = audios/Mahishasura_Mardini.mp3; sourceTree = SOURCE_ROOT; };
+		65E547271F27EFEF00B621AD /* Ashta_Lakshmi_Stotram.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Ashta_Lakshmi_Stotram.mp3; path = audios/Ashta_Lakshmi_Stotram.mp3; sourceTree = SOURCE_ROOT; };
+		65E547291F27F05F00B621AD /* Sri_Hanuman_Dandakam.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sri_Hanuman_Dandakam.txt; sourceTree = "<group>"; };
+		65E5472B1F27F06500B621AD /* Sri_Hanuman_DandakamEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sri_Hanuman_DandakamEnglish.txt; sourceTree = "<group>"; };
+		65E5472D1F27F0AB00B621AD /* Sri_Hanuman_Dandakam.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Sri_Hanuman_Dandakam.mp3; path = audios/Sri_Hanuman_Dandakam.mp3; sourceTree = SOURCE_ROOT; };
+		65E5472F1F27F0B500B621AD /* Shree_Hanuman_Chalisa.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Shree_Hanuman_Chalisa.mp3; path = audios/Shree_Hanuman_Chalisa.mp3; sourceTree = SOURCE_ROOT; };
+		65E547311F27F0E300B621AD /* Shree_Hanuman_Chalisa.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Shree_Hanuman_Chalisa.txt; sourceTree = "<group>"; };
+		65E547331F27F0EC00B621AD /* Shree_Hanuman_ChalisaEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Shree_Hanuman_ChalisaEnglish.txt; sourceTree = "<group>"; };
+		65E547351F27F4AB00B621AD /* AnjaneyaSwamy.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AnjaneyaSwamy.plist; sourceTree = "<group>"; };
+		65ED51781F1AC55C00E37D02 /* Govinda_Namalu.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Govinda_Namalu.txt; sourceTree = "<group>"; };
+		65ED517A1F1AC81200E37D02 /* Govinda_NamaluEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Govinda_NamaluEnglish.txt; sourceTree = "<group>"; };
+		65ED517E1F1AC96800E37D02 /* Sri_Venkateswara_Suprabhatham.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sri_Venkateswara_Suprabhatham.txt; sourceTree = "<group>"; };
+		65ED51801F1AC97500E37D02 /* Sri_Venkateswara_SuprabhathamEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Sri_Venkateswara_SuprabhathamEnglish.txt; sourceTree = "<group>"; };
+		65ED51851F1ACED100E37D02 /* Lalitha_Sahasranamam.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lalitha_Sahasranamam.txt; sourceTree = "<group>"; };
+		65ED51871F1ACFF000E37D02 /* Varalakshmi_Vrathakalpam.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Varalakshmi_Vrathakalpam.txt; sourceTree = "<group>"; };
+		65ED51891F1AE1C100E37D02 /* Kakad_Aarathi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Kakad_Aarathi.txt; sourceTree = "<group>"; };
+		65ED518B1F1B11BB00E37D02 /* Vishnu_Sahasranamam_StotramEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vishnu_Sahasranamam_StotramEnglish.txt; sourceTree = "<group>"; };
+		65ED518F1F1C0C3500E37D02 /* Ashta_Lakshmi_Stotram.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ashta_Lakshmi_Stotram.txt; sourceTree = "<group>"; };
+		65ED51911F1C0D0F00E37D02 /* Maha_lakshmi_Ashtakam.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Maha_lakshmi_Ashtakam.txt; sourceTree = "<group>"; };
+		65ED51931F1C0DF300E37D02 /* Madhyana_Aarathi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Madhyana_Aarathi.txt; sourceTree = "<group>"; };
+		65ED51951F1C0E1F00E37D02 /* Dhoop_Aarathi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dhoop_Aarathi.txt; sourceTree = "<group>"; };
+		65ED51971F1C0E5D00E37D02 /* Shej_Aarathi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Shej_Aarathi.txt; sourceTree = "<group>"; };
+		65ED51991F1C0EDE00E37D02 /* Vishnu_Sahasranamam_Stotram.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vishnu_Sahasranamam_Stotram.txt; sourceTree = "<group>"; };
+		65ED519B1F1C0FCF00E37D02 /* Mahishasura_Mardini.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mahishasura_Mardini.txt; sourceTree = "<group>"; };
+		65ED519D1F1C107200E37D02 /* Soubhagya_Lakshmi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Soubhagya_Lakshmi.txt; sourceTree = "<group>"; };
+		65ED519F1F1C10F100E37D02 /* Lingastkam.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Lingastkam.txt; sourceTree = "<group>"; };
+		65ED51AE1F1C156600E37D02 /* Vinayaka_vratha_Vidhanam.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vinayaka_vratha_Vidhanam.txt; sourceTree = "<group>"; };
+		65ED51B01F1C427D00E37D02 /* More.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = More.plist; sourceTree = "<group>"; };
+		65ED51B21F1C42DE00E37D02 /* Vrathalu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Vrathalu.plist; sourceTree = "<group>"; };
+		65ED51B81F1C455100E37D02 /* LakshmiDevi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LakshmiDevi.plist; sourceTree = "<group>"; };
+		65ED51BA1F1C487B00E37D02 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		65FB2F901F2551BA00073FE0 /* Maha_lakshmi_AshtakamEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Maha_lakshmi_AshtakamEnglish.txt; sourceTree = "<group>"; };
+		65FB2F941F25580500073FE0 /* Ashta_Lakshmi_StotramEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ashta_Lakshmi_StotramEnglish.txt; sourceTree = "<group>"; };
+		65FB2F961F25586E00073FE0 /* Soubhagya_LakshmiEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Soubhagya_LakshmiEnglish.txt; sourceTree = "<group>"; };
+		65FB2F981F255C3100073FE0 /* Mahishasura_MardiniEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Mahishasura_MardiniEnglish.txt; sourceTree = "<group>"; };
+		65FB2F9A1F255CBB00073FE0 /* Kakad_AarathiEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Kakad_AarathiEnglish.txt; sourceTree = "<group>"; };
+		65FB2F9C1F255CC600073FE0 /* Madhyana_AarathiEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Madhyana_AarathiEnglish.txt; sourceTree = "<group>"; };
+		65FB2F9E1F255CCE00073FE0 /* Dhoop_AarathiEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dhoop_AarathiEnglish.txt; sourceTree = "<group>"; };
+		65FB2FA01F255CD600073FE0 /* Shej_AarathiEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Shej_AarathiEnglish.txt; sourceTree = "<group>"; };
+		65FB2FA21F258C3900073FE0 /* Varalakshmi_VrathakalpamEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Varalakshmi_VrathakalpamEnglish.txt; sourceTree = "<group>"; };
+		65FB2FA41F258C5500073FE0 /* Vinayaka_vratha_VidhanamEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Vinayaka_vratha_VidhanamEnglish.txt; sourceTree = "<group>"; };
+		65FB2FA61F258C6400073FE0 /* Kedareswara_vratham.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Kedareswara_vratham.txt; sourceTree = "<group>"; };
+		65FB2FA81F258C7600073FE0 /* Kedareswara_vrathamEnglish.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Kedareswara_vrathamEnglish.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +170,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		652E4BED1F1566EE002C6FA6 /* venkateswara */ = {
+			isa = PBXGroup;
+			children = (
+				65ED51781F1AC55C00E37D02 /* Govinda_Namalu.txt */,
+				65ED517A1F1AC81200E37D02 /* Govinda_NamaluEnglish.txt */,
+				65E547211F27C8A200B621AD /* Govinda_Namalu.mp3 */,
+				65ED517E1F1AC96800E37D02 /* Sri_Venkateswara_Suprabhatham.txt */,
+				65ED51801F1AC97500E37D02 /* Sri_Venkateswara_SuprabhathamEnglish.txt */,
+				65E5471F1F27C89900B621AD /* Sri_Venkateswara_Suprabhatham.mp3 */,
+				65ED51991F1C0EDE00E37D02 /* Vishnu_Sahasranamam_Stotram.txt */,
+				65ED518B1F1B11BB00E37D02 /* Vishnu_Sahasranamam_StotramEnglish.txt */,
+				65E5471D1F27C88900B621AD /* Vishnu_Sahasranamam_Stotram.mp3 */,
+			);
+			name = venkateswara;
+			sourceTree = "<group>";
+		};
 		6545DE421F10307E0019EE47 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +205,194 @@
 		6545DE4D1F10307E0019EE47 /* MyFavorites_pdl */ = {
 			isa = PBXGroup;
 			children = (
+				657AAA371FE597100083147D /* MyFavorites_pdl.entitlements */,
 				6545DE4E1F10307E0019EE47 /* AppDelegate.swift */,
-				6545DE501F10307E0019EE47 /* ViewController.swift */,
-				6545DE521F10307E0019EE47 /* Main.storyboard */,
+				6545DE761F13EF6B0019EE47 /* View */,
+				6545DE741F13EF370019EE47 /* ViewControllers */,
+				6545DE751F13EF630019EE47 /* Model */,
+				65ED51BC1F1C488F00E37D02 /* Media */,
 				6545DE551F10307E0019EE47 /* Assets.xcassets */,
 				6545DE571F10307E0019EE47 /* LaunchScreen.storyboard */,
 				6545DE5A1F10307E0019EE47 /* Info.plist */,
+				6508637920111A69009A46E4 /* Images.xcassets */,
 			);
 			path = MyFavorites_pdl;
+			sourceTree = "<group>";
+		};
+		6545DE741F13EF370019EE47 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6545DE771F13EFA60019EE47 /* cells */,
+				6545DE601F1031290019EE47 /* albumsVc.swift */,
+				6545DE721F11614C0019EE47 /* SongListTVc.swift */,
+				6545DE641F1031C50019EE47 /* playsongVc.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6545DE751F13EF630019EE47 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				65ED51BA1F1C487B00E37D02 /* ApiManager.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6545DE761F13EF6B0019EE47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6545DE521F10307E0019EE47 /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6545DE771F13EFA60019EE47 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				6545DE6E1F1086970019EE47 /* TableVCell.swift */,
+				6545DE691F1039230019EE47 /* CollectionViewCell.xib */,
+				6545DE681F1039230019EE47 /* CollectionViewCell.swift */,
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
+		6545DE7A1F13FD310019EE47 /* saibaba */ = {
+			isa = PBXGroup;
+			children = (
+				65E5470B1F27C66C00B621AD /* Dhoop_Aarathi.mp3 */,
+				65E5470C1F27C66C00B621AD /* Kakad_Aarathi.mp3 */,
+				65E5470D1F27C66C00B621AD /* Madhyana_Aarathi.mp3 */,
+				65E5470E1F27C66C00B621AD /* Shej_Aarathi.mp3 */,
+				65ED51891F1AE1C100E37D02 /* Kakad_Aarathi.txt */,
+				65FB2F9A1F255CBB00073FE0 /* Kakad_AarathiEnglish.txt */,
+				65ED51931F1C0DF300E37D02 /* Madhyana_Aarathi.txt */,
+				65FB2F9C1F255CC600073FE0 /* Madhyana_AarathiEnglish.txt */,
+				65ED51951F1C0E1F00E37D02 /* Dhoop_Aarathi.txt */,
+				65FB2F9E1F255CCE00073FE0 /* Dhoop_AarathiEnglish.txt */,
+				65ED51971F1C0E5D00E37D02 /* Shej_Aarathi.txt */,
+				65FB2FA01F255CD600073FE0 /* Shej_AarathiEnglish.txt */,
+			);
+			name = saibaba;
+			sourceTree = "<group>";
+		};
+		65E547041F277F4100B621AD /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				65ED51B81F1C455100E37D02 /* LakshmiDevi.plist */,
+				65D00C011F1705D5005B17C7 /* Saibaba.plist */,
+				65D00C041F181484005B17C7 /* DurgaMatha.plist */,
+				65D00C071F1814AC005B17C7 /* Venkateswara.plist */,
+				65ED51B21F1C42DE00E37D02 /* Vrathalu.plist */,
+				65ED51B01F1C427D00E37D02 /* More.plist */,
+				65E547351F27F4AB00B621AD /* AnjaneyaSwamy.plist */,
+			);
+			name = plist;
+			sourceTree = "<group>";
+		};
+		65ED51821F1ACC6600E37D02 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				65ED51851F1ACED100E37D02 /* Lalitha_Sahasranamam.txt */,
+				657C92141F26130700A7A6EA /* Lalitha_SahasranamamEnglish.txt */,
+				65E547131F27C68200B621AD /* Lalitha_Sahasranamam.mp3 */,
+				65E547141F27C68200B621AD /* Lingastkam.mp3 */,
+				657C92161F26132200A7A6EA /* LingastkamEnglish.txt */,
+				65ED519F1F1C10F100E37D02 /* Lingastkam.txt */,
+			);
+			name = More;
+			sourceTree = "<group>";
+		};
+		65ED51A31F1C137E00E37D02 /* Kedareswara_vratham */ = {
+			isa = PBXGroup;
+			children = (
+				65FB2FA61F258C6400073FE0 /* Kedareswara_vratham.txt */,
+				65FB2FA81F258C7600073FE0 /* Kedareswara_vrathamEnglish.txt */,
+			);
+			name = Kedareswara_vratham;
+			sourceTree = "<group>";
+		};
+		65ED51AC1F1C145B00E37D02 /* Vinayaka_Vratham */ = {
+			isa = PBXGroup;
+			children = (
+				65ED51AE1F1C156600E37D02 /* Vinayaka_vratha_Vidhanam.txt */,
+				65E5471B1F27C70D00B621AD /* Vinayaka_vratha_Vidhanam.mp3 */,
+				65FB2FA41F258C5500073FE0 /* Vinayaka_vratha_VidhanamEnglish.txt */,
+			);
+			name = Vinayaka_Vratham;
+			sourceTree = "<group>";
+		};
+		65ED51AD1F1C148C00E37D02 /* Varalakshmi_Vratham */ = {
+			isa = PBXGroup;
+			children = (
+				65ED51871F1ACFF000E37D02 /* Varalakshmi_Vrathakalpam.txt */,
+				65E547191F27C70100B621AD /* Varalakshmi_Vrathakalpam.mp3 */,
+				65FB2FA21F258C3900073FE0 /* Varalakshmi_VrathakalpamEnglish.txt */,
+			);
+			name = Varalakshmi_Vratham;
+			sourceTree = "<group>";
+		};
+		65ED51B41F1C431C00E37D02 /* Vrathalu */ = {
+			isa = PBXGroup;
+			children = (
+				65ED51AD1F1C148C00E37D02 /* Varalakshmi_Vratham */,
+				65ED51AC1F1C145B00E37D02 /* Vinayaka_Vratham */,
+				65ED51A31F1C137E00E37D02 /* Kedareswara_vratham */,
+			);
+			name = Vrathalu;
+			sourceTree = "<group>";
+		};
+		65ED51B51F1C433E00E37D02 /* DurgaMatha */ = {
+			isa = PBXGroup;
+			children = (
+				65ED519B1F1C0FCF00E37D02 /* Mahishasura_Mardini.txt */,
+				65FB2F981F255C3100073FE0 /* Mahishasura_MardiniEnglish.txt */,
+				65E547231F27C8E400B621AD /* Mahishasura_Mardini.mp3 */,
+			);
+			name = DurgaMatha;
+			sourceTree = "<group>";
+		};
+		65ED51B61F1C436700E37D02 /* Laskhmi_Devi */ = {
+			isa = PBXGroup;
+			children = (
+				65ED518F1F1C0C3500E37D02 /* Ashta_Lakshmi_Stotram.txt */,
+				65FB2F941F25580500073FE0 /* Ashta_Lakshmi_StotramEnglish.txt */,
+				65E547271F27EFEF00B621AD /* Ashta_Lakshmi_Stotram.mp3 */,
+				65ED51911F1C0D0F00E37D02 /* Maha_lakshmi_Ashtakam.txt */,
+				65FB2F901F2551BA00073FE0 /* Maha_lakshmi_AshtakamEnglish.txt */,
+				65E547061F27C62300B621AD /* Maha_lakshmi_Ashtakam.mp3 */,
+				65ED519D1F1C107200E37D02 /* Soubhagya_Lakshmi.txt */,
+				65FB2F961F25586E00073FE0 /* Soubhagya_LakshmiEnglish.txt */,
+				65E547071F27C62300B621AD /* Soubhagya_Lakshmi.mp3 */,
+			);
+			name = Laskhmi_Devi;
+			sourceTree = "<group>";
+		};
+		65ED51B71F1C43B600E37D02 /* Anjaneya_Swamy */ = {
+			isa = PBXGroup;
+			children = (
+				65E5472D1F27F0AB00B621AD /* Sri_Hanuman_Dandakam.mp3 */,
+				65E5472F1F27F0B500B621AD /* Shree_Hanuman_Chalisa.mp3 */,
+				65E547291F27F05F00B621AD /* Sri_Hanuman_Dandakam.txt */,
+				65E547311F27F0E300B621AD /* Shree_Hanuman_Chalisa.txt */,
+				65E547331F27F0EC00B621AD /* Shree_Hanuman_ChalisaEnglish.txt */,
+				65E5472B1F27F06500B621AD /* Sri_Hanuman_DandakamEnglish.txt */,
+			);
+			name = Anjaneya_Swamy;
+			sourceTree = "<group>";
+		};
+		65ED51BC1F1C488F00E37D02 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				65E547041F277F4100B621AD /* plist */,
+				65ED51B61F1C436700E37D02 /* Laskhmi_Devi */,
+				65ED51B51F1C433E00E37D02 /* DurgaMatha */,
+				6545DE7A1F13FD310019EE47 /* saibaba */,
+				65ED51B71F1C43B600E37D02 /* Anjaneya_Swamy */,
+				652E4BED1F1566EE002C6FA6 /* venkateswara */,
+				65ED51B41F1C431C00E37D02 /* Vrathalu */,
+				65ED51821F1ACC6600E37D02 /* More */,
+			);
+			name = Media;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,13 +422,19 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Ravi Pinamacha";
 				TargetAttributes = {
 					6545DE4A1F10307E0019EE47 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 6EZM43FG2R;
+						DevelopmentTeam = QREB4933L8;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -124,9 +461,71 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E5472C1F27F06500B621AD /* Sri_Hanuman_DandakamEnglish.txt in Resources */,
 				6545DE591F10307E0019EE47 /* LaunchScreen.storyboard in Resources */,
+				65ED51A01F1C10F100E37D02 /* Lingastkam.txt in Resources */,
+				65E5471A1F27C70100B621AD /* Varalakshmi_Vrathakalpam.mp3 in Resources */,
+				65E547281F27EFEF00B621AD /* Ashta_Lakshmi_Stotram.mp3 in Resources */,
+				65D00C051F181484005B17C7 /* DurgaMatha.plist in Resources */,
+				65ED51AF1F1C156600E37D02 /* Vinayaka_vratha_Vidhanam.txt in Resources */,
+				657C92171F26132200A7A6EA /* LingastkamEnglish.txt in Resources */,
+				65FB2FA11F255CD600073FE0 /* Shej_AarathiEnglish.txt in Resources */,
+				65ED517B1F1AC81200E37D02 /* Govinda_NamaluEnglish.txt in Resources */,
 				6545DE561F10307E0019EE47 /* Assets.xcassets in Resources */,
+				65FB2FA71F258C6400073FE0 /* Kedareswara_vratham.txt in Resources */,
+				65E547341F27F0EC00B621AD /* Shree_Hanuman_ChalisaEnglish.txt in Resources */,
+				6545DE6B1F1039230019EE47 /* CollectionViewCell.xib in Resources */,
+				65ED518A1F1AE1C100E37D02 /* Kakad_Aarathi.txt in Resources */,
+				65E547361F27F4AB00B621AD /* AnjaneyaSwamy.plist in Resources */,
+				6508637A20111A69009A46E4 /* Images.xcassets in Resources */,
+				65ED51B31F1C42DE00E37D02 /* Vrathalu.plist in Resources */,
+				65ED51921F1C0D0F00E37D02 /* Maha_lakshmi_Ashtakam.txt in Resources */,
+				65E547321F27F0E300B621AD /* Shree_Hanuman_Chalisa.txt in Resources */,
+				65FB2FA91F258C7600073FE0 /* Kedareswara_vrathamEnglish.txt in Resources */,
+				65E5472E1F27F0AB00B621AD /* Sri_Hanuman_Dandakam.mp3 in Resources */,
+				65E547301F27F0B500B621AD /* Shree_Hanuman_Chalisa.mp3 in Resources */,
+				65ED51861F1ACED100E37D02 /* Lalitha_Sahasranamam.txt in Resources */,
+				65FB2F991F255C3100073FE0 /* Mahishasura_MardiniEnglish.txt in Resources */,
+				65ED518C1F1B11BB00E37D02 /* Vishnu_Sahasranamam_StotramEnglish.txt in Resources */,
+				657C92151F26130700A7A6EA /* Lalitha_SahasranamamEnglish.txt in Resources */,
+				65D00C031F17EFF5005B17C7 /* Saibaba.plist in Resources */,
+				65E547091F27C62300B621AD /* Maha_lakshmi_Ashtakam.mp3 in Resources */,
+				65ED51961F1C0E1F00E37D02 /* Dhoop_Aarathi.txt in Resources */,
+				65E547111F27C66C00B621AD /* Madhyana_Aarathi.mp3 in Resources */,
+				65FB2F9B1F255CBB00073FE0 /* Kakad_AarathiEnglish.txt in Resources */,
+				65ED51791F1AC55C00E37D02 /* Govinda_Namalu.txt in Resources */,
+				65ED51B91F1C455100E37D02 /* LakshmiDevi.plist in Resources */,
+				65ED51941F1C0DF300E37D02 /* Madhyana_Aarathi.txt in Resources */,
+				65FB2F911F2551BA00073FE0 /* Maha_lakshmi_AshtakamEnglish.txt in Resources */,
+				65D00C081F1814AC005B17C7 /* Venkateswara.plist in Resources */,
+				65E547221F27C8A200B621AD /* Govinda_Namalu.mp3 in Resources */,
+				65FB2F951F25580500073FE0 /* Ashta_Lakshmi_StotramEnglish.txt in Resources */,
+				65E5472A1F27F05F00B621AD /* Sri_Hanuman_Dandakam.txt in Resources */,
+				65E5470F1F27C66C00B621AD /* Dhoop_Aarathi.mp3 in Resources */,
+				65E5471C1F27C70D00B621AD /* Vinayaka_vratha_Vidhanam.mp3 in Resources */,
+				65E5470A1F27C62300B621AD /* Soubhagya_Lakshmi.mp3 in Resources */,
+				65ED519C1F1C0FCF00E37D02 /* Mahishasura_Mardini.txt in Resources */,
+				65FB2F9D1F255CC600073FE0 /* Madhyana_AarathiEnglish.txt in Resources */,
+				65FB2F971F25586E00073FE0 /* Soubhagya_LakshmiEnglish.txt in Resources */,
+				65FB2FA31F258C3900073FE0 /* Varalakshmi_VrathakalpamEnglish.txt in Resources */,
+				65E547121F27C66C00B621AD /* Shej_Aarathi.mp3 in Resources */,
+				65E547151F27C68200B621AD /* Lalitha_Sahasranamam.mp3 in Resources */,
 				6545DE541F10307E0019EE47 /* Main.storyboard in Resources */,
+				65E547201F27C89900B621AD /* Sri_Venkateswara_Suprabhatham.mp3 in Resources */,
+				65ED519E1F1C107200E37D02 /* Soubhagya_Lakshmi.txt in Resources */,
+				65E547101F27C66C00B621AD /* Kakad_Aarathi.mp3 in Resources */,
+				65ED51901F1C0C3500E37D02 /* Ashta_Lakshmi_Stotram.txt in Resources */,
+				65FB2F9F1F255CCE00073FE0 /* Dhoop_AarathiEnglish.txt in Resources */,
+				65ED51811F1AC97500E37D02 /* Sri_Venkateswara_SuprabhathamEnglish.txt in Resources */,
+				65ED519A1F1C0EDE00E37D02 /* Vishnu_Sahasranamam_Stotram.txt in Resources */,
+				65FB2FA51F258C5500073FE0 /* Vinayaka_vratha_VidhanamEnglish.txt in Resources */,
+				65ED517F1F1AC96800E37D02 /* Sri_Venkateswara_Suprabhatham.txt in Resources */,
+				65ED51881F1ACFF000E37D02 /* Varalakshmi_Vrathakalpam.txt in Resources */,
+				65E5471E1F27C88900B621AD /* Vishnu_Sahasranamam_Stotram.mp3 in Resources */,
+				65E547241F27C8E400B621AD /* Mahishasura_Mardini.mp3 in Resources */,
+				65ED51981F1C0E5D00E37D02 /* Shej_Aarathi.txt in Resources */,
+				65ED51B11F1C427D00E37D02 /* More.plist in Resources */,
+				65E547161F27C68200B621AD /* Lingastkam.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +536,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6545DE511F10307E0019EE47 /* ViewController.swift in Sources */,
+				6545DE731F11614C0019EE47 /* SongListTVc.swift in Sources */,
+				6545DE6A1F1039230019EE47 /* CollectionViewCell.swift in Sources */,
 				6545DE4F1F10307E0019EE47 /* AppDelegate.swift in Sources */,
+				65ED51BB1F1C487B00E37D02 /* ApiManager.swift in Sources */,
+				6545DE6F1F1086970019EE47 /* TableVCell.swift in Sources */,
+				6545DE611F1031290019EE47 /* albumsVc.swift in Sources */,
+				6545DE651F1031C50019EE47 /* playsongVc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,7 +578,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -182,7 +588,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -205,7 +615,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -225,7 +635,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -233,7 +645,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -250,7 +666,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -263,12 +679,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6EZM43FG2R;
+				DEVELOPMENT_TEAM = QREB4933L8;
 				INFOPLIST_FILE = MyFavorites_pdl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosapps.MyFavorites-pdl";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -276,12 +694,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6EZM43FG2R;
+				DEVELOPMENT_TEAM = QREB4933L8;
 				INFOPLIST_FILE = MyFavorites_pdl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.iosapps.MyFavorites-pdl";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -304,6 +724,7 @@
 				6545DE5F1F10307E0019EE47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

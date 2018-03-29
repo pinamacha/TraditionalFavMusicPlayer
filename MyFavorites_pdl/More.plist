@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Others.plist
+   MyFavorites_pdl
+
+   Created by Ravi Pinamacha on 7/16/17.
+   Copyright (c) 2017 Ravi Pinamacha. All rights reserved.
+-->
+<plist version="1.0">
+    <array>
+        <dict>
+            <key>title</key>
+            <string>Lalitha_Sahasranamam</string>
+            <key>titleTelugu</key>
+            <string>శ్రీ లలితా సహస్రనామాo</string>
+        </dict>
+        <dict>
+            <key>title</key>
+            <string>Lingastkam</string>
+            <key>titleTelugu</key>
+            <string>లింగాష్టకo</string>
+        </dict>
+    </array>
+</plist>
