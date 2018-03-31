@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+ DurgaMatha.plist
+ MyFavorites_pdl
+ 
+ Created by Ravi Pinamacha on 7/13/17.
+ Copyright (c) 2017 Ravi Pinamacha. All rights reserved.
+ -->
+<plist version="1.0">
+    <array>
+        <dict>
+            <key>title</key>
+            <string>Sri_Hanuman_Dandakam</string>
+            <key>titleTelugu</key>
+            <string>శ్రీ ఆంజనేయ దండకం</string>
+        </dict>
+        <dict>
+            <key>title</key>
+            <string>Shree_Hanuman_Chalisa</string>
+            <key>titleTelugu</key>
+            <string>హనుమాన్ చాలీసా</string>
+        </dict>
+    </array>
+</plist>

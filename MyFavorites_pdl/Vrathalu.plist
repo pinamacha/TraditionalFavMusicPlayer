@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   Vrathams.plist
+   MyFavorites_pdl
+
+   Created by Ravi Pinamacha on 7/16/17.
+   Copyright (c) 2017 Ravi Pinamacha. All rights reserved.
+-->
+<plist version="1.0">
+    <array>
+        <dict>
+            <key>title</key>
+            <string>Varalakshmi_Vrathakalpam</string>
+            <key>titleTelugu</key>
+            <string>శ్రీ వరలక్ష్మీ వ్రతకల్పం</string>
+        </dict>
+        <dict>
+            <key>title</key>
+            <string>Vinayaka_vratha_Vidhanam</string>
+            <key>titleTelugu</key>
+            <string>శ్రీ వరసిద్ధి వినాయకవ్రతము</string>
+        </dict>
+        
+    </array>
+</plist>

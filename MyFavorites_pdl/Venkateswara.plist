@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>Govinda_Namalu</string>
+		<key>titleTelugu</key>
+		<string>గోవింద నామాలు</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>Sri_Venkateswara_Suprabhatham</string>
+		<key>titleTelugu</key>
+		<string>శ్రీ వెంకటేశ్వర సుప్రభాతం</string>
+	</dict>
+    <dict>
+        <key>title</key>
+        <string>Vishnu_Sahasranamam_Stotram</string>
+        <key>titleTelugu</key>
+        <string>శ్శ్రీ విష్ణుసహస్రనామస్తోత్రం</string>
+    </dict>
+</array>
+</plist>
